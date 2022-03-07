@@ -1,0 +1,43 @@
+.info {
+    background-color: #6aa71b;
+    color: whitesmoke;
+    height: 70px;
+    width: 100%;
+    padding-top: 1rem;
+
+    span {
+        padding-right: 2rem;
+        &:first-child {
+            &::after {
+                content: "|";
+                padding-left: 2rem;
+                opacity: 0.4;
+            }
+        }
+    }
+
+    .btn {
+        float: right;
+    }
+}
+
+.navbar {
+    background-color: white !important;
+    img {
+        width: 170px;
+    }
+    .pages {
+        li {
+            a {
+                color: black;
+            }
+            i {
+                color: #6aa71b;
+            }
+        }
+    }
+
+    .mr-4 {
+        margin-right: 4rem;
+    }
+}
