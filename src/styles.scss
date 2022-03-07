@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-.btn {
-    
-    &.btn-warning {
-        background-color: #fe7717;
-    }
+body {
+    background-image: url("/assets/images/h4-bg-slider1.jpg");
+    .btn {
+        &.btn-warning {
+            background-color: #fe7717;
+        }
 
-    &btn-success {
-        background-color: #77a72d;
+        &btn-success {
+            background-color: #77a72d;
+        }
     }
 }
