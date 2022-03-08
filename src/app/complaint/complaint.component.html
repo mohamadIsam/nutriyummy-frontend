@@ -1,1 +1,12 @@
-<p>complaint works!</p>
+<form [formGroup]="complaintForm">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" formControlName="title" id="title" placeholder="Enter Title">
+    </div>
+    <div class="form-group">
+        <label for="describe">Describe</label>
+        <textarea class="form-control" formControlName="describe" id="describe" placeholder="Describe"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
