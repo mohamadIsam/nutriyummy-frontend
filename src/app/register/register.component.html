@@ -1,1 +1,16 @@
-<p>register works!</p>
+<form [formGroup]="registerForm">
+    <div class="form-group">
+        <label for="userName">User Name address</label>
+        <input type="userName" class="form-control" formControlName="userName" id="userName" placeholder="Enter User Name">
+      </div>
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" formControlName="email" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" formControlName="password" id="password" placeholder="Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
